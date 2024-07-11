@@ -1,0 +1,27 @@
+#arriba{
+
+    background: yellow;
+    width: 70px;
+    height: 35px;
+    border-radius: 70px 70px 0 0;
+    animation: identifier 1s infinite;
+
+}
+  @keyframes identifier {
+    o%{transform: rotate(0deg);}
+    50%{transform: rotate(-35deg);}
+  }
+
+  #abajo{
+
+    background: yellow;
+    width: 70px;
+    height: 35px;
+    border-radius: 0 0 70px 70px;
+    animation: identifier2 1s infinite;
+
+}
+  @keyframes identifier2 {
+    o%{transform: rotate(0deg);}
+    50%{transform: rotate(35deg);}
+  }
